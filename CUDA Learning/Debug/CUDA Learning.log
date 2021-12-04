@@ -1,0 +1,7 @@
+﻿  Compiling CUDA source file vecotrAddition.cu...
+  
+  D:\HPC learning\CUDA Learning\CUDA Learning>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\include"  -G   --keep-dir Debug  -maxrregcount=0  --machine 32 --compile -cudart static  -g  -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\vecotrAddition.cu.obj "D:\HPC learning\CUDA Learning\CUDA Learning\vecotrAddition.cu" 
+  vecotrAddition.cu
+D:\HPC learning\CUDA Learning\CUDA Learning\vecotrAddition.cu(15): warning C4018: '<': signed/unsigned mismatch
+D:\HPC learning\CUDA Learning\CUDA Learning\vecotrAddition.cu(24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CUDA Learning.vcxproj -> D:\HPC learning\CUDA Learning\Debug\CUDA Learning.exe
